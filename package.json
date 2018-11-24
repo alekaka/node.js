@@ -1,0 +1,29 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekaka/node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alekaka/node.js/issues"
+  },
+  "homepage": "https://github.com/alekaka/node.js#readme",
+  "dependencies": {
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "mongoose": "^5.3.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}

@@ -1,0 +1,30 @@
+// inicia o package.json
+$ npm init -y
+
+// executa arquivo no node
+node .\server.js
+
+// instala pacotes
+$ npm install http express debug --save
+o --save salva no package.json
+
+// instala os pacotes do package.json
+$ npm install
+
+// criar scripts no package.json
+"scripts": {
+    "start": "node ./bin/server.js"
+},
+no console, será executado $ npm start
+
+// auto executar arquivos js pacote nodemon
+$ npm install nodemon --save-dev
+
+// o -dev é para ficar só em ambiente de test
+
+// status
+res.status(200).send(); // ok
+res.status(201).send(); // create
+res.status(400).send(); // bad request
+res.status(401).send(); // não autenticado
+res.status(403).send(); // acesso negado
