@@ -22,9 +22,19 @@ $ npm install nodemon --save-dev
 
 // o -dev é para ficar só em ambiente de test
 
+// pacote converte json
+npm install body-parser --save
+
 // status
 res.status(200).send(); // ok
 res.status(201).send(); // create
 res.status(400).send(); // bad request
 res.status(401).send(); // não autenticado
 res.status(403).send(); // acesso negado
+res.status(500).send(); // internal server erro
+
+// banco de dados mongo db online
+mlab.com/
+
+// pacote node db
+npm install mongoose --save
