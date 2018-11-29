@@ -16,6 +16,6 @@ const schema = new Schema({
         type: String,
         required: true,
     }
-);
+});
 
 module.exports = mongoose.model('Customer', schema);
