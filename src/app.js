@@ -11,6 +11,7 @@ mongoose.connect('mongodb://alekaka:ale19963966@ds041167.mlab.com:41167/ndstr-db
 
 // carrega models
 const Product = require('./models/product');
+const Customer = require('./models/customer');
 
 // carrega as rotas
 const indexRoute = require('./routes/index-route');
