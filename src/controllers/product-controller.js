@@ -1,7 +1,5 @@
 'use strict'// o javascript será mais criterioso ao analisar o código.
 
-const mongoose = require('mongoose');
-const Product = mongoose.model('Product');
 const repository = require('../repositories/product-repository');
 
 exports.get = async (req, res, next) => {
